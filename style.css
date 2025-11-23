@@ -1,0 +1,120 @@
+/* =============================
+   Global Styles
+============================= */
+body {
+  font-family: "Tajawal", Arial, sans-serif;
+  background: #0d0f1a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 1900px;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+/* =============================
+   Header
+============================= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #0a0c18;
+  border-bottom: 3px solid #1e2a57;
+  box-shadow: 0 0 15px #00000080;
+}
+
+.header img {
+  width: 80px;
+  filter: drop-shadow(0 0 6px #000000aa);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #d6d9ff;
+  text-shadow: 0 0 10px #091741;
+}
+
+/* =============================
+   Rank Box
+============================= */
+.rank-box {
+  background: #101426;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00000070;
+  border: 1px solid #1b2445;
+}
+
+.rank-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(90deg, #1a265b, #0f1737);
+  border-radius: 8px;
+  color: #e9ecff;
+  box-shadow: 0 0 10px #0006;
+  font-weight: bold;
+}
+
+/* =============================
+   Rank Table
+============================= */
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.rank-table thead {
+  background: #0e1533;
+}
+
+.rank-table th {
+  padding: 12px;
+  font-size: 15px;
+  color: #d5d9ff;
+  border-bottom: 2px solid #1c2450;
+}
+
+.rank-table td {
+  padding: 10px;
+  text-align: center;
+  background: #131a33;
+  border-bottom: 1px solid #1a2247;
+  color: #c4c9ec;
+  font-size: 14px;
+}
+
+.rank-table tr:hover td {
+  background: #1d2758;
+  transition: 0.2s;
+}
+.nav-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #1e2a57;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  box-shadow: 0 0 8px #00000070;
+}
+
+.nav-button:hover {
+  background: #263b7d;
+  transform: scale(1.05);
+}
+
+/* ============================= */
